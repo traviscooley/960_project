@@ -1,0 +1,54 @@
+.top-bar a {
+    text-decoration: none;
+}
+
+.top-bar ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.top-bar li {
+    display: inline;
+    margin-right: 5px;
+}
+
+.top-bar a {
+    text-decoration: gray;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+}
+.nav-bar ul {
+    list-style: none;
+    padding: 0px;
+    margin-top: 45px;
+}
+
+.nav-bar li {
+    display: inline;
+    background-color: black;
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 3.5px;
+}
+
+.nav-bar li:hover {
+    background-color: orange;
+    cursor: pointer;
+}
+
+.hero {
+    position: relative;
+}
+
+.over-hero {
+    position: absolute;
+    top: 192px; left: 75px; bottom: 192px;
+}
+
+.title {
+    margin-top: 10px;
+}
