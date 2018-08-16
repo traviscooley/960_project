@@ -1,131 +1,177 @@
+/*body of page*/
 body {
     background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
 }
+/**/
 
+/*fonts*/
+h2 {
+    font-family: 'Fjalla One', sans-serif;
+}
+/**/
+
+/*top-bar*/
 .top-bar{
     background-color: #121e29;
-    padding: 10px 0;
+    padding: 7px 0;
 }
-
 .top-bar-inner a {
     text-decoration: none;
     color: gray;
+    font-size: 9.7px;
 }
-
 .top-bar-inner ul {
     list-style: none;
     padding: 0px;
     margin: 0px;
+    margin-left: 275.5px;
+    margin-bottom: 3px;
 }
-
 .top-bar-inner li {
     display: inline;
-    margin-right: 5px;
+    margin-right: .5px;
     color: gray;
+    font-size: 12px;
 }
+/*top-bar ends*/
 
+/*nav-bar*/
+.logo {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 .nav-bar a {
     text-decoration: none;
     color: white;
+    font-family: 'Fjalla One', sans-serif;
 }
-
 .nav-bar ul {
     list-style: none;
     padding: 0px;
-    margin-top: 45px;
+    margin-top: 50px;
+    margin-left: 20.74px;
 }
-
 .nav-bar li {
     display: inline;
     background-color: black;
-    padding: 10px;
+    padding: 12px 20px 12px 20px;
     border-radius: 8px;
-    margin-right: 3.5px;
+    margin-right: .5px;
 }
-
 .nav-bar li:hover {
     background-color: #ff8903;
     cursor: pointer;
 }
+/*nav-bar ends*/
 
-.title {
-    margin-top: 10px;
-}
-
-.hero {
-    position: relative;
-}
-
+/*middle of page*/
 .SSS {
-    padding-bottom: 20px;
     color: darkgray;
+    border-style: solid;
+    border-width: thin;
+    border-top-color: rgb(233, 216, 216);
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
 }
-
-.more {
-    background-color: #203447;
-    padding: 5px;
-    border-radius: 8px;
-    text-decoration: none;
-    color: white;
+.border1 {
+    margin-left: 8px;
+    border-style: solid;
+    border-width: thin;
+    border-top: none;
+    border-right-color: rgb(233, 216, 216);
+    border-bottom: none;
+    border-left: none;
+    padding-bottom: 100px;
 }
-
-.more:hover {
-    background-color: #ff8903;
-    cursor: pointer;
+.border2 {
+    border-style: solid;
+    border-width: thin;
+    border-top: none;
+    border-right-color: rgb(233, 216, 216);
+    border-bottom: none;
+    border-left: none;
+    padding-bottom: 100px;
 }
+.sss {
+    color: black;
+    font-size: 50px;
+}
+/*middle of page ends*/
 
-.SON {
+/*footer of page*/
+.footer {
     background: #355578;
     background: linear-gradient(to bottom, #355578 0%,#101a24 100%);
-    padding-bottom: 40px;
+    padding-bottom: 60px;
+    padding-top: 25px;
     color: white;
 }
-
-.SON-inner h4 {
-    margin: 0px;
+.footer-inner ul a {
+    text-decoration: none;
+    color: darkgray;
+}
+.footer-inner p {
     color: white;
 }
-
+.footer-inner p:hover {
+    color: #ff8903;
+}
 .services ul {
-    padding: 15px;
-    color: white;
+    padding-left: 15px;
 }
-
 .op ul {
-    padding: 15px;
-    list-style-image: url(dot.jpg)
+    padding-left: 15px;  
 }
-
 .date {
     float: left;
     margin-right: 10px;
     margin-bottom: 20px;
-    color: white;
 }
-
 .news ul {
     list-style: none;
     padding: 0px;
-    color: white;
 }
+.fonts {
+    font-size: 30px;
+}
+/**/
 
+/*bottom-bar*/
 .bottom-bar {
     background-color: #091014;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 60px;
 }
-
 .bottom-bar-inner a {
     text-decoration: none;
     padding: 5px;
     border-radius: 8px;
     color: gray;
+    font-size: 9.7px;
 }
-
 .bottom-bar-inner a:hover {
     background-color: #203447;
     cursor: pointer;
 }
-
 .bottom-bar-inner p {
+    font-size: 11px;
     color: gray;
 }
+/*bottom-bar ends*/
+
+/*more buttons*/
+.more {
+    background-color: #203447;
+    padding: 10px 18px 10px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+}
+.more:hover {
+    background-color: #ff8903;
+    cursor: pointer;
+}
+/**/
