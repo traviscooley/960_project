@@ -9,6 +9,9 @@ body {
 h2 {
     font-family: 'Fjalla One', sans-serif;
 }
+.fonts {
+    font-size: 30px;
+}
 /**/
 
 /*top-bar*/
@@ -83,7 +86,7 @@ h2 {
     border-right-color: rgb(233, 216, 216);
     border-bottom: none;
     border-left: none;
-    padding-bottom: 100px;
+    padding-bottom: 60px;
 }
 .border2 {
     border-style: solid;
@@ -92,7 +95,10 @@ h2 {
     border-right-color: rgb(233, 216, 216);
     border-bottom: none;
     border-left: none;
-    padding-bottom: 100px;
+    padding-bottom: 60px;
+}
+.border3 {
+    padding-bottom: 60px;
 }
 .sss {
     color: black;
@@ -120,9 +126,11 @@ h2 {
 }
 .services ul {
     padding-left: 15px;
+    list-style-image: url("../images/cogs.png");
 }
 .op ul {
-    padding-left: 15px;  
+    padding-left: 15px; 
+    list-style-image: url("../images/message.png");
 }
 .date {
     float: left;
@@ -135,6 +143,7 @@ h2 {
 }
 .fonts {
     font-size: 30px;
+    font-weight: thin;
 }
 /**/
 
